@@ -3,7 +3,7 @@ CONFIG_NAME: 'attn2'
 DATASET_NAME: 'CelebA'
 DATA_DIR: '../data/CelebA'
 GPU_ID: 0
-WORKERS: 4
+WORKERS: 16
 
 B_VALIDATION: False  # True  # False
 TREE:
