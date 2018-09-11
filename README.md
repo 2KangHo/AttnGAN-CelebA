@@ -3,7 +3,7 @@
 Pytorch implementation for AttnGAN with CelebA dataset.
 
 > **Architecture**
-<img src="framework.png" width="900px" height="350px"/>
+<img src="img/framework.png" width="900px" height="350px"/>
 
 
 ## Dependencies
@@ -48,6 +48,12 @@ Pytorch implementation for AttnGAN with CelebA dataset.
 ## Validation
 
 - To generate images for all captions in the validation dataset, change B_VALIDATION to True in the eval_*.yml. and then run `python main.py --cfg cfg/eval_CelebA.yml --gpu 0`
+
+
+## result - attention map
+
+- 60epoch
+<img src="img/attention_maps3300.png" width="685px" height="594px"/>
 
 
 ## Reference
