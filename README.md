@@ -1,6 +1,7 @@
 # AttnGAN-CelebA
 
-Pytorch implementation for AttnGAN with CelebA dataset.
+Pytorch implementation for AttnGAN with CelebA dataset.  
+Code from [official github code](https://github.com/taoxugit/AttnGAN).
 
 > **Architecture**
 <img src="img/framework.png" width="900px" height="350px"/>
